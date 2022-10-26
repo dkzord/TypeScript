@@ -14,8 +14,10 @@ input.focus();
 
 /* Não é recomendado */
 // Non-null assertion (!)
-const body2 = document.querySelector('body')!;
-body2.style.background = 'red';
+// const body2 = document.querySelector('body')!;
+// body2.style.background = 'red';
 
 // Type assertion
 const body4 = document.querySelector('body') as unknown as number;
+
+export { body };
