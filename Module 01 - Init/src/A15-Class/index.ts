@@ -28,7 +28,7 @@ export class Colaborador {
 
 const empresa1 = new Empresa('DK AAAA', '11.111.111/0001-11');
 const colaborador1 = new Colaborador('Fernando', 'Cavalcanti');
-const colaborador3 = new Colaborador('João', 'Victor');
+const colaborador3 = new Colaborador('Teste git', 'AAAA');
 empresa1.adicionaColaborador(colaborador1);
 empresa1.adicionaColaborador(new Colaborador('Testando', 'Paulo'));
 empresa1.adicionaColaborador(colaborador3);
