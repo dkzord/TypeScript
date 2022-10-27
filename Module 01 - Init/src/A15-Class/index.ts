@@ -30,7 +30,7 @@ const empresa1 = new Empresa('DK Corp', '11.111.111/0001-11');
 const colaborador1 = new Colaborador('Fernando', 'Cavalcanti');
 const colaborador3 = new Colaborador('João', 'Victor');
 empresa1.adicionaColaborador(colaborador1);
-empresa1.adicionaColaborador(new Colaborador('Gabriel', 'Paulo'));
+empresa1.adicionaColaborador(new Colaborador('Testando', 'Paulo'));
 empresa1.adicionaColaborador(colaborador3);
 
 empresa1.mostrarColaboradores();
